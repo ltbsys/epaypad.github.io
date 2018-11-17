@@ -76,10 +76,10 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-cardRecharge_bank" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="_posts-cardCheck" class="article article-type-_posts" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2018/10/14/cardRecharge_bank/" class="article-date">
-  <time datetime="2018-10-14T04:00:00.000Z" itemprop="datePublished">2018-10-14</time>
+    <a href="/2018/10/13/cardCheck/" class="article-date">
+  <time datetime="2018-10-12T16:00:00.000Z" itemprop="datePublished">2018-10-13</time>
 </a>
     
   </div>
@@ -90,7 +90,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2018/10/14/cardRecharge_bank/">ETC移动发行系统：卡片充值（银行网点）</a>
+      <a class="article-title" href="/2018/10/13/cardCheck/">ETC移动发行系统：卡签检测（卡片检测）</a>
     </h1>
   
 
@@ -102,41 +102,26 @@
         
         <div id="toc" class="toc-article">
             <strong class="toc-title">文章目录</strong>
-            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#说明"><span class="toc-number">1.</span> <span class="toc-text">说明</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#基本使用"><span class="toc-number">2.</span> <span class="toc-text">基本使用</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#用户卡充值"><span class="toc-number">2.1.</span> <span class="toc-text">用户卡充值</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#用户卡圈存"><span class="toc-number">2.2.</span> <span class="toc-text">用户卡圈存</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#注意事项"><span class="toc-number">3.</span> <span class="toc-text">注意事项</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#说明"><span class="toc-number">1.</span> <span class="toc-text">说明</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#主要流程"><span class="toc-number">2.</span> <span class="toc-text">主要流程</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#基本使用"><span class="toc-number">3.</span> <span class="toc-text">基本使用</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#注意事项"><span class="toc-number">4.</span> <span class="toc-text">注意事项</span></a></li></ol>
         </div>
         
-        <h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>&emsp;&emsp;本文讲解只针对<span style="color:red;">银行网点</span>卡片充值！！！充值前请确认已办理成功陇通卡且为储值卡<br>&emsp;&emsp;<span style="color:red;">充值圈存属于敏感操作，操作前要保证网络连接正常，每次操作前后都应在卡签检测里检查卡余额。</span><br>&emsp;&emsp;充值过程中，请<span style="color:red;">务必</span>注意查看软件界面的各种操作提示！！！<br>&emsp;&emsp;各银行有专用微信对接群，个银行网点办理过程中如果遇到问题，请联系总行科技人员邀请进入微信群里提问！</p>
-<p>卡片充值包括3个关注点，在操作过程中一定要注意,<span style="color:blue;">务必要保证用户已完成支付，卡片写入支付金额符合实际，流水状态正常</span>：</p>
-<ol>
-<li>缴费<br>&emsp;&emsp;银行网点充值<span style="color:red;">仅支持微信和支付宝扫</span>码支付功能。<span style="color:red;">支付过程中不许退出用户卡充值界面！！！</span><br>&emsp;&emsp;如果支付成功，但未写卡成功且无流水信息却退出了用户卡充值界面，则充值金额会隔天通过对账后原路退还用户，具体退回时间以银行具体时间为准。</li>
-<li>卡片余额</li>
-</ol>
-<ul>
-<li><span style="color:red;">充值前</span>读卡需关注卡片充值前余额，<span style="color:red;">充值后</span>读卡需关注卡片【充值后金额=充值前金额+充值金额】</li>
-<li>充值过程中有任何异常，在看清软件给出提示后，查看卡片余额，如果卡片已充值成功，则禁止再次对本卡片进行卡片充值</li>
-<li>充值过程中，如果提示<span style="color:red;">充值成功</span>，建议查看卡片余额人工确认之后再将卡片归还充值用户</li>
-<li>充值过程中，如果提示不是充值成功，则需关注1. 卡片是否写卡成功 2. 充值流水状态是否正常</li>
-</ul>
-<ol start="3">
-<li>充值记录<br>&emsp;&emsp;【充值记录】可通过车牌号、车牌颜色和充值时间查询。充值记录有3种可能：<br>3.1. 无充值记录<br>&emsp;&emsp;这种情况下，卡片肯定为未写入充值信息，请人工确认后，直接再次重试充值即可<br>3.2. 有充值记录且为已圈存状态<br>&emsp;&emsp;这种情况，卡片肯定已写入充值信息，请人工确认后，直接将卡片交给用户即可<br>3.3 有充值记录且为未圈存状态<br>&emsp;&emsp;这种情况需<span style="color:red;">特别注意</span>，卡片充值信息是否写入需人工确认，如果已写入充值信息，则需联系紫光管理员，后台处理；如果未写入，则请按照下文【基本使用】-【用户卡圈存】操作。</li>
-</ol>
-<h1 id="基本使用"><a href="#基本使用" class="headerlink" title="基本使用"></a>基本使用</h1><h2 id="用户卡充值"><a href="#用户卡充值" class="headerlink" title="用户卡充值"></a>用户卡充值</h2><p>&emsp;&emsp;点击APP主页【用户卡充值】，进入&lt;用户卡充值&gt;界面，如图二所示。<br>&emsp;&emsp;将用户卡插入手持机背面卡槽，点击【读卡】按钮，获取车牌信息、卡号、卡余额等信息（请务必仔细复核识别的卡号是否正确，以及充值前余额），输入充值金额。<br>&emsp;&emsp;点击【在线支付】，会弹出支付二维码，支持微信、支付宝扫码，如图三所示。客户通过微信或者支付宝扫码支付，完成支付后,点击【已完成支付】，系统会自动充值。<br>&emsp;&emsp;充值操作成功后，建议到【卡签检测】-【卡片检测】读卡查看卡片余额，人工核对充值金额是否正确；如果充值失败，请严格按照软件提示进行处理。</p>
-<table style="margin-top: -80px;"><br>    <td><img src="/pub-images/recharge-2.png" width="63%" alt="图二"></td><br>    <td><img src="/pub-images/recharge-3.png" width="60%" alt="图三"></td><br></table>
+        <h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>&emsp;&emsp;通过【卡片检测】可查看卡片办理信息，用户通过这些信息辅助判断该ETC卡片是否办理成功。<br>&emsp;&emsp;针对卡片过期问题，也可通过【卡片检测】重新进行激活</p>
+<h1 id="主要流程"><a href="#主要流程" class="headerlink" title="主要流程"></a>主要流程</h1><p><img src="/pub-images/cardactivationflow.png" width="350" alt="卡片检测流程图"></p>
+<h1 id="基本使用"><a href="#基本使用" class="headerlink" title="基本使用"></a>基本使用</h1><ul>
+<li>进行读卡操作如果用户卡已激活，只显示用户卡信息</li>
+<li>进行读卡操作如果用户卡没有激活,读完卡信息后显示激活卡片按钮<table style="margin-top:-80px"><br>    <tr><br>        <td><img src="/pub-images/cardactivation2.jpg" width="70%" alt="信息展示"></td><br>        <td><img src="/pub-images/cardactivation3.jpg" width="70%" alt="激活卡片"></td><br>    </tr><br></table>
 
-<h2 id="用户卡圈存"><a href="#用户卡圈存" class="headerlink" title="用户卡圈存"></a>用户卡圈存</h2><p>&emsp;&emsp;圈存功能主要解决充值过程中写卡失败的情况。如果用户卡在充值过程中提示”充值写卡失败，请到充值记录页圈存！”，应在不消费、不二次充值的情况下当天完成圈存操作。<br>&emsp;&emsp;点击主页【充值记录】，输入卡对应的车牌号码，选择车牌颜色，选择开始时间和结束时间（注意：结束时间和开始时间差值必须在30天之内！），点击【查询】，显示相应卡的圈存记录，如图四所示。<br>&emsp;&emsp;点击【未圈存】记录进入圈存界面，核对圈存信息，将陇通卡插入手持机的背后的卡槽，点击【圈存】，如图五所示，完成圈存操作。</p>
-<p><table style="margin-top: -80px;"><br>     <td><img src="/pub-images/recharge-4.png" width="60%" alt="图四"></td><br>     <td><img src="/pub-images/recharge-5.png" width="60%" alt="图五"></td><br></table><br>&emsp;&emsp;圈存过程，如果圈存失败，请<span style="color:red;">务必检查卡片余额和充值记录状态后，再进行操作</span></p>
-<h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><ul>
-<li>充值前先通过卡签检测检查卡余额，每次操作完充值和圈存操作时，都应检查卡片余额进行人工检验充值是否正确</li>
-<li>充值前请确认已办理成功陇通卡且为储值卡，自营网点充值通过POS机刷卡下账，充值最大金额为十万，输入单位为元。</li>
-<li>充值过程中如果遇到提示有”联系管理员”字样的提示，停止操作，联系管理员 </li>
-<li>客户支付成功，充值失败，请向用户当面解释，正常工作时间：隔天会自动退账；法定假期时间：收假后两天内会自动退账</li>
+</li>
 </ul>
-<p>更多故障解决，请参考：<a href="/2018/10/10/problems/">常见故障及其解决方法</a>    </p>
+<h1 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h1><ul>
+<li>读取卡信息后，界面有【卡片激活】按钮，请点击按钮进行用户卡激活</li>
+</ul>
+<p>更多故障解决，请参考：<a href="/2018/10/10/problems/">常见故障及其解决方法</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://epaypad.github.io/2018/10/14/cardRecharge_bank/" data-id="cjoll58w50008f2s6wy4uqmea" class="article-share-link">分享</a>
+      <a data-url="https://epaypad.github.io/2018/10/13/cardCheck/" data-id="cjollewk00005h9s67ntzozzy" class="article-share-link">分享</a>
       
       
     </footer>
@@ -156,7 +141,7 @@
 
   <nav id="page-nav">
     
-    <a class="extend prev" rel="prev" href="/page/9/">&laquo; 上一页</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><a class="page-number" href="/page/9/">9</a><span class="page-number current">10</span><a class="page-number" href="/page/11/">11</a><a class="page-number" href="/page/12/">12</a><span class="space">&hellip;</span><a class="page-number" href="/page/15/">15</a><a class="extend next" rel="next" href="/page/11/">下一页 &raquo;</a>
+    <a class="extend prev" rel="prev" href="/page/9/">&laquo; 上一页</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><a class="page-number" href="/page/9/">9</a><span class="page-number current">10</span><a class="page-number" href="/page/11/">11</a><a class="page-number" href="/page/12/">12</a><span class="space">&hellip;</span><a class="page-number" href="/page/14/">14</a><a class="extend next" rel="next" href="/page/11/">下一页 &raquo;</a>
   </nav>
 
 </section>
@@ -175,7 +160,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">十一月 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">十月 2018</a><span class="archive-list-count">14</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">十月 2018</a><span class="archive-list-count">14</span></li></ul>
     </div>
   </div>
 
@@ -186,10 +171,6 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
-        
-          <li>
-            <a href="/2018/11/17/baidu_verify_hBAaLR4B8O/">(no title)</a>
-          </li>
         
           <li>
             <a href="/2018/10/21/index/">ETC移动发行系统简介</a>
