@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://epaypad.github.io/2018/10/20/etcPad/</loc>
+    <lastmod>2018-11-21T06:15:09.000Z</lastmod>
+  </url>  <url>
     <loc>https://epaypad.github.io/2018/10/20/onlineNews/</loc>
     <lastmod>2018-11-21T03:09:03.000Z</lastmod>
-  </url>  <url>
-    <loc>https://epaypad.github.io/2018/10/20/etcPad/</loc>
-    <lastmod>2018-11-21T01:51:18.000Z</lastmod>
   </url>  <url>
     <loc>https://epaypad.github.io/2018/10/14/cardRecharge_bank/</loc>
     <lastmod>2018-11-20T06:18:44.000Z</lastmod>
@@ -25,22 +25,22 @@
     <loc>https://epaypad.github.io/2018/10/15/obuActivation/</loc>
     <lastmod>2018-11-18T05:43:35.000Z</lastmod>
   </url>  <url>
-    <loc>https://epaypad.github.io/2018/10/21/index/</loc>
-    <lastmod>2018-11-18T05:43:15.000Z</lastmod>
-  </url>  <url>
     <loc>https://epaypad.github.io/2018/10/14/cardRecharge_self/</loc>
     <lastmod>2018-11-18T05:43:15.000Z</lastmod>
   </url>  <url>
-    <loc>https://epaypad.github.io/2018/10/10/4G-PASM/</loc>
-    <lastmod>2018-11-18T05:42:53.000Z</lastmod>
+    <loc>https://epaypad.github.io/2018/10/21/index/</loc>
+    <lastmod>2018-11-18T05:43:15.000Z</lastmod>
   </url>  <url>
-    <loc>https://epaypad.github.io/2018/10/13/cardCheck/</loc>
+    <loc>https://epaypad.github.io/2018/10/19/appUpdate/</loc>
     <lastmod>2018-11-18T05:42:53.000Z</lastmod>
   </url>  <url>
     <loc>https://epaypad.github.io/2018/10/18/apply/</loc>
     <lastmod>2018-11-18T05:42:53.000Z</lastmod>
   </url>  <url>
-    <loc>https://epaypad.github.io/2018/10/19/appUpdate/</loc>
+    <loc>https://epaypad.github.io/2018/10/10/4G-PASM/</loc>
+    <lastmod>2018-11-18T05:42:53.000Z</lastmod>
+  </url>  <url>
+    <loc>https://epaypad.github.io/2018/10/13/cardCheck/</loc>
     <lastmod>2018-11-18T05:42:53.000Z</lastmod>
   </url>  <url>
     <loc>https://epaypad.github.io/2018/10/17/cardIssue/</loc>
